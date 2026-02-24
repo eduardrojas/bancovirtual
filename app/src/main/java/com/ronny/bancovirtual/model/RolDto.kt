@@ -1,4 +1,8 @@
 package com.ronny.bancovirtual.model
 
-class RolDto {
-}
+data class RolDto(
+    val Id     : Int?,
+    val Nombre : String?
+)
+
+

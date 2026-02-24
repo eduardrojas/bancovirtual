@@ -55,7 +55,7 @@ class TransferenciaActivity : AppCompatActivity() {
             db.close()
 
             Toast.makeText(this, "¡Transferencia Exitosa!", Toast.LENGTH_LONG).show()
-            finish() // Cierra esta pantalla y vuelve al Main
+            finish()
         }
     }
 }
